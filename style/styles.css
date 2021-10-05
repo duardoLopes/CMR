@@ -69,6 +69,7 @@ a{
 #continerMessage{
     padding: 5px;
     border-radius: 10px;
+    text-align: center;
 }
 #message{
     color: rgba(255, 255, 255, 0.753);
