@@ -1,49 +1,57 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-    <head>
-        <meta charset="UTF-8"/>
-        <meta name="viewport" content="width=device-width,initial-scale=1.0"/>
-        <link rel="shortcut icon" href="icons/favicon.ico" type="image/x-icon">
-        <title>CMR</title>
-        <link rel="stylesheet" href="style/styles.css"/>
-    </head>
-    <body>
-        <header>
-            <h1 id="title">CMR</h1>
-            <h2>Compilação de Memes Ruins</h2>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/styles.css">
+    <title>CMR</title>
+</head>
+<body>
+    <div class="container">
+        <header class="titles">
+
+            <h1 class="title1">CMR</h1>
+            <h2 class="title2">Compilação de Memes Ruins</h2>
+
         </header>
-        <section>    
-            <div id="container">
-                <div id="btn">
-                    <a href="https://chat.whatsapp.com/HX1bzh9PSuaCD9FWVnklyY" target="_blank" rel="external"><div class="btn" title="WhatsApp"><img src="icons/whatsapp.png">WhatsApp</div></a>
-                    <a href="https://www.reddit.com/u/compilacao?utm_medium=android_app&utm_source=share" target="_blank" rel="external"><div class="btn" title="Reddit"><img src="icons/logotipo-do-reddit.png">Reddit</div></a>
-                    <a href="https://discord.gg/az4tSXE" target="_blank" rel="external"><div class="btn" title="Discord"><img src="icons/discordia.png">Discord</div></a>
-                    <a href="https://twitter.com/compilacaomr?s=09" target="_blank" rel="external"><div class="btn" title="Twitter"><img src="icons/twitter.png">Twitter</div></a> 
-                    <a href="https://www.instagram.com/compilacaodememesruins" target="_blank" rel="external"><div class="btn" title="Instagram"><img src="icons/instagram-logo.png">Instagram</div></a>
-                    <a href="https://t.me/compilacaodememesruins" target="_blank" rel="external"><div class="btn" title="Telegram"><img src="icons/telegram.png">Telegram</div></a>
-                </div>
-                <div class="continerRule">
-                    <p id="rules" title="regras da página">
-                        ENTROU, TEM QUE INTERAGIR!<br>
-                        👻 MEMBRO GHOST LEVA BAN!<br> 
-                        LEIA AS REGRAS:<br>
-                        🚫 PROIBIDO DIVULGAÇÃO SEM AUTORIZAÇÃO<br> 
-                        🚫 PROIBIDO FLOOD, TRAVAZAP<br> 
-                        🚫 PROIBIDO ENVIAR + DE 6 FIGURINHAS SEGUIDAS<br> 
-                        🚫 PROIBIDO CORRENTES<br>
-                        🚫PROIBIDO DAR SPOILERS DE FILMES, SÉRIES E ETC...<br>
-                        🚫 PROIBIDO GORE, CP, ZOOFILIA, OU QUALQUER CONTEÚDO ILEGAL, E MEMES COM ROMANTIZAÇÃO AO ESTUPRO<br>
-                    </p>
-                    <div id="continerMessage">
-                        <h1 id="message">Fazendo seu dia pior</h1>
-                    </div>
-                </div>
+        <section class="content">
+    
+            <ul class="list-social-midias">
+                <li calss="icon-btn"><ion-icon id="whatsapp" class="btn-hover" name="logo-whatsapp" ></ion-icon></ion-icon><button class="btn btn-hover" id="whatsapp" title="WhatsApp">WhatsApp</button></li>
+                <li calss="icon-btn"><ion-icon id="reddit" class="btn-hover" name="logo-reddit"></ion-icon><button class="btn btn-hover" id="reddit" title="Reddit">Reddit</button></li>
+                <li calss="icon-btn"><ion-icon id="discord" class="btn-hover" name="logo-discord"></ion-icon><button class="btn btn-hover" id="discord" title="Discord">Discord</button></li>
+                <li calss="icon-btn"><ion-icon id="twitter" class="btn-hover" name="logo-twitter"></ion-icon><button class="btn btn-hover" id="twitter" title="twitter">Twitter</button></li>
+                <li calss="icon-btn"><ion-icon id="instagram" class="btn-hover" name="logo-instagram"></ion-icon><button class="btn btn-hover" id="instagram" title="Instagram">Instagram</button></li>
+                <li calss="icon-btn"><ion-icon id="telegram" class="btn-hover" name="paper-plane"></ion-icon><button class="btn btn-hover" id="telegram" title="Telegram">Telegram</button></li>
+            </ul>
+    
+            <div class="container-text">
+                <p class="text rules"  title="Regras do Ademiro">
+                    ENTROU, TEM QUE INTERAGIR!<br>
+                    👻 MEMBRO GHOST LEVA BAN!<br> 
+                    LEIA AS REGRAS:<br>
+                    🚫 PROIBIDO DIVULGAÇÃO SEM AUTORIZAÇÃO<br> 
+                    🚫 PROIBIDO FLOOD, TRAVAZAP<br> 
+                    🚫 PROIBIDO ENVIAR + DE 6 FIGURINHAS SEGUIDAS<br> 
+                    🚫 PROIBIDO CORRENTES<br>
+                    🚫PROIBIDO DAR SPOILERS DE FILMES, SÉRIES E ETC...<br>
+                    🚫 PROIBIDO GORE, CP, ZOOFILIA, OU QUALQUER CONTEÚDO ILEGAL,<br> E MEMES COM ROMANTIZAÇÃO AO ESTUPRO<br>
+                </p>
+    
+                <p class="text phrase"  title="mensagem">Fazendo seu dia pior</p>
             </div>
+
         </section>
-        <footer>
-            <div class="footer">&copy;@compilacaodememesruins</div>
-            <div class="footer">desenvolvido por <a href="www.linkedin.com/in/eduardo-lopes-42k" title="Programador">@edu_lopes.j</a></div>
-            <div>Icons made by <a href="https://www.freepik.com" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/br/" title="Flaticon">www.flaticon.com</a></div>
+        <footer class="baseBoard">
+
+           <p class="textBaseBoard">by <a title="Web Developer" href="https://www.linkedin.com/in/eduardo-lopes-42k/" target="_blank">&copy;Eduardo Lopes</a></p>
+
         </footer>
-    </body>
+    </div>
+
+    <script src="js/script.js"></script>
+    <script  type = "module"  src = "https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"> </script> 
+    <script  nomodule  src = "https: // unpkg .com / ionicons @ 5.5.2 / dist / ionicons / ionicons.js "> </script>
+</body>
 </html>
