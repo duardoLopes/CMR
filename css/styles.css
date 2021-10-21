@@ -1,0 +1,137 @@
+@charset "UTF-8";
+@font-face {
+    font-family: font-title1;
+    src: url("../fonts/K26ToyBlocks123.ttf");
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    color: rgb(202, 190, 190);
+    background: linear-gradient(to top right, rgb(46, 41, 38), rgb(209, 29, 29), rgb(46, 41, 38));
+}
+
+/*div*/
+.container{
+    text-align: center;
+}
+
+
+/*header*/
+.titles{
+    height: 20%;
+    align-items: center;
+}
+.title1{
+    font-family: font-title1;
+    font-size: 70px;
+    padding: 5px;
+}
+.title2{
+    padding: 10px;
+}
+
+
+/*section*/
+.content{
+    height: 100%;
+    font-size: 20px;
+    justify-content: space-evenly;
+    display: flex;   
+}
+.list-social-midias{
+    list-style: none;
+    font-size: 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 50%;
+}
+.icon-btn{
+    width: 100%;
+}
+ion-icon{
+    color: rgb(209, 29, 29);
+    background: rgb(202, 190, 190);
+    border: solid 2px rgb(202, 190, 190);
+    border-radius: 50%;
+    padding: 10px;
+}
+.btn{
+    margin: 5px;
+    font-size: 20px;
+    padding: 10px 5px;
+    width: 80%;
+    border-radius: 15px;
+    border-width: 0;
+    border: solid 2px rgb(202, 190, 190);
+    color: rgb(209, 29, 29);
+    background: rgb(202, 190, 190);
+}
+.btn-hover:hover{
+    color: rgb(202, 190, 190);
+    background: transparent;
+}
+
+.container-text{
+    padding: 5px;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.text{
+    font-weight: bold;
+    font-family: Impact, 'Arial Narrow Bold', sans-serif;
+}
+.rules{
+    padding: 0 15px;
+    text-align: left;
+}
+.phrase{
+    font-size: 30px;
+}
+
+/*footer*/
+.baseBoard{
+    height: 30%;
+    padding-top: 10%;
+    padding-bottom: 5.8%;
+}
+.textBaseBoard{
+    font-weight: bold;
+    font-family: Impact, 'Arial Narrow Bold', sans-serif;
+}
+a{
+    color: rgb(125, 149, 202);
+}
+
+/*Responsividade*/
+@media screen and (max-width: 1040px){
+    .rules{ 
+        font-size: 18px;
+    }
+}
+@media screen and (max-width: 700px){
+    .rules{ 
+        font-size: 15px;
+    }
+}
+@media screen and (max-width: 600px){
+    .content{
+        height: 100%;
+        flex-direction: column;
+        align-items: center;
+    }
+    .list-social-midias{
+        width: 100%;
+    }
+    .container-text{
+        width: 100%;
+    }
+    .baseBoard{
+        padding: 30px;
+    }
+}
