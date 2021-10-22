@@ -76,6 +76,7 @@ ion-icon{
 }
 
 .container-text{
+    margin: 10px;
     padding: 5px;
     width: 50%;
     display: flex;
