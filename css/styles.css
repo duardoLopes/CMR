@@ -1,7 +1,7 @@
 @charset "UTF-8";
 @font-face {
     font-family: font-title1;
-    src: url("../fonts/K26ToyBlocks123.ttf");
+    src: url("../font/K26ToyBlocks123.ttf");
 }
 *{
     margin: 0;
