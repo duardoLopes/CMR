@@ -132,6 +132,9 @@ a{
     .container-text{
         width: 100%;
     }
+    .phrase{
+        margin-top: 15px;
+    }
     .baseBoard{
         padding: 30px;
     }
