@@ -58,6 +58,14 @@ ion-icon{
     border-radius: 50%;
     padding: 10px;
 }
+svg{
+    width: 50px;
+    fill: rgb(209, 29, 29);
+    background: rgb(202, 190, 190);
+    border: solid 2px rgb(202, 190, 190);
+    border-radius: 50%;
+    padding: 10px;
+}
 .btn{
     margin: 5px;
     font-size: 20px;
@@ -70,6 +78,7 @@ ion-icon{
     background: rgb(202, 190, 190);
 }
 .btn-hover:hover{
+    fill: rgb(202, 190, 190);
     color: rgb(202, 190, 190);
     background: transparent;
 }
