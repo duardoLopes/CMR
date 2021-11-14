@@ -4,6 +4,7 @@ let discord = document.querySelector('#discord');
 let twitter = document.querySelector('#twitter');
 let instagram = document.querySelector('#instagram');
 let telegram = document.querySelector('#telegram');
+let iFunny = document.querySelector('#iFunny');
 
 whatsapp.addEventListener('click', function() {
     window.open("https://chat.whatsapp.com/HX1bzh9PSuaCD9FWVnklyY", "_blank");
@@ -22,4 +23,7 @@ instagram.addEventListener('click', function() {
 });
 telegram.addEventListener('click', function() {
     window.open("https://t.me/compilacaodememesruins", "_blank");
+});
+iFunny.addEventListener('click', function() {
+    window.open("https://br.ifunny.co/user/compilacaodememesruins?s=cl", "_blank");
 });
