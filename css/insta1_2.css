@@ -1,0 +1,26 @@
+@charset "UTF-8";
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.button{
+    border: solid 1px rgb(202, 190, 190);
+    border-radius: 15px;
+    padding: 20px;
+    margin: 20px;
+    margin-top: 150px;
+    margin-bottom: 100px;
+}
+
+@media screen and (max-width: 600px){
+    .button{
+        margin: 10px;
+        margin-bottom: 30px;
+    }
+    .textbtn{
+        font-size:30px;
+    }
+}
