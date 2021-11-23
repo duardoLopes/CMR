@@ -51,7 +51,7 @@ body{
 .icon-btn{
     width: 100%;
 }
-ion-icon{
+.ion-icon{
     color: rgb(209, 29, 29);
     background: rgb(202, 190, 190);
     border: solid 2px rgb(202, 190, 190);
