@@ -19,7 +19,7 @@ twitter.addEventListener('click', function() {
     window.open("https://twitter.com/compilacaomr?s=09", "_blank");
 });
 instagram.addEventListener('click', function() {
-    window.open("https://www.instagram.com/compilacaodememesruins", "_blank");
+    window.open("insta1_and_2.html", "_self");
 });
 telegram.addEventListener('click', function() {
     window.open("https://t.me/compilacaodememesruins", "_blank");
