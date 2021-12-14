@@ -7,7 +7,7 @@ let telegram = document.querySelector('#telegram');
 let iFunny = document.querySelector('#iFunny');
 
 whatsapp.addEventListener('click', function() {
-    window.open("https://chat.whatsapp.com/HX1bzh9PSuaCD9FWVnklyY", "_blank");
+    window.open("https://chat.whatsapp.com/LIUU60jRt150Dh5n2BFliu", "_blank");
 });
 reddit.addEventListener('click', function() {
     window.open("https://www.reddit.com/u/compilacao?utm_medium=android_app&utm_source=share", "_blank");
