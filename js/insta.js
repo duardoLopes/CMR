@@ -6,5 +6,5 @@ conta1.addEventListener('click', function() {
     window.open("https://www.instagram.com/compilacaodememesruins", "_blank");
 });
 conta2.addEventListener('click', function() {
-    window.open("https://www.instagram.com/compilacao_v2/", "_blank");
+    window.open("https://www.instagram.com/compilacaodememesruins2/", "_blank");
 });
