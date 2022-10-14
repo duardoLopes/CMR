@@ -1,0 +1,135 @@
+@charset "UTF-8";
+@font-face {
+    font-family: font-title1;
+    src: url("../font/K26ToyBlocks123.ttf");
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+body {
+    text-align: center;
+    background-image: URL(../assets/image2.jpg);
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+    background-color: rgb(5, 0, 5);
+    
+}
+
+h1 {
+    font-family: font-title1;
+    font-size: 60px;
+}
+
+h2 {
+    font-size: 20px;
+}
+
+.container {
+    padding: 12px;
+    max-width: 600px;
+    margin: 64px auto;
+    background-color:  rgba(255, 253, 253, 0.664);
+    border-radius: 16px;
+}
+
+header {
+    padding: 8px;
+}
+
+.links {
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+}
+
+.btn {
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.877);
+    background-color: rgba(124, 0, 0, 0.788);
+    border-radius: 8px;
+    margin: auto;
+    width: 70%;
+    padding: 8px;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+svg path{
+    fill: rgba(255, 255, 255, 0.877);
+}
+svg {
+    width: 20px;
+    height: 20px;
+}
+.iFunny {
+    width: 30px;
+    height: 30px;
+}
+/*
+svg:hover path{
+    fill: rgb(70, 5, 83);
+}*/
+
+.btn:hover path{
+    fill: rgb(70, 5, 83);
+}
+.btn:hover {
+    color: rgb(70, 5, 83);
+    border: 2px solid rgb(124, 0, 0);
+    background-color: rgba(0, 0 ,0 ,0);
+}
+
+p {
+    margin: 8px;
+    text-align: justify;
+    font-weight: bold;
+}
+
+.msg {
+    margin-top: 16px;
+    color: rgb(124, 0, 0);
+}
+
+/*//////////////////////////////////////////////////////*/
+
+@media screen and (max-width: 600px){
+    body {
+
+        background-image: URL(../assets/image.jpg);
+        background-color: rgb(5, 0, 5);
+        
+    }
+}
+
+@media screen and (min-width: 601px){
+    body {
+        background: linear-gradient(to top right, rgb(46, 41, 38), rgb(90, 90, 90));   
+    }
+}
+
+@media screen and (min-width: 1200px){
+    body {
+
+        background-image: URL(../assets/image1.jpg);
+        background-color: rgb(5, 0, 5);
+        
+    }
+}
+
+@media screen and (min-width: 2300px){
+    body {
+
+        background-image: URL(../assets/image2.jpg);
+        background-color: rgb(5, 0, 5);
+        
+    }
+}
