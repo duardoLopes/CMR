@@ -8,7 +8,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    
+    font-family: sans-serif;
 }
 
 body {
@@ -71,8 +71,8 @@ svg {
     height: 20px;
 }
 .iFunny {
-    width: 30px;
-    height: 30px;
+    width: 40px;
+    height: 20px;
 }
 /*
 svg:hover path{
@@ -103,33 +103,49 @@ p {
 
 @media screen and (max-width: 600px){
     body {
-
         background-image: URL(../assets/image.jpg);
         background-color: rgb(5, 0, 5);
         
     }
 }
 
-@media screen and (min-width: 601px){
+@media screen and (min-width: 601px) and (max-width: 869px ){
     body {
-        background: linear-gradient(to top right, rgb(46, 41, 38), rgb(90, 90, 90));   
+        background-image: URL(../assets/image6.jpg);
+        background-color: rgb(5, 0, 5);
+        
     }
 }
 
-@media screen and (min-width: 1200px){
+@media screen and (min-width: 870px) and (max-width: 1285px ){
     body {
-
-        background-image: URL(../assets/image1.jpg);
+        background-image: URL(../assets/image5.jpg);
         background-color: rgb(5, 0, 5);
         
+    }
+}
+
+@media screen and (min-width: 1286px ) and (max-width: 1549px ){
+    body {
+        background-image: URL(../assets/image4.jpg);
+        background-color: rgb(5, 0, 5);
+        
+    }
+}
+
+@media screen and (min-width: 1550px){
+    body {
+        background-image: URL(../assets/image3.jpg);
+        background-color: rgb(5, 0, 5);
+         
     }
 }
 
 @media screen and (min-width: 2300px){
     body {
-
         background-image: URL(../assets/image2.jpg);
         background-color: rgb(5, 0, 5);
         
     }
 }
+
